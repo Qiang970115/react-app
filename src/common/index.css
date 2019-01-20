@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: .14rem;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    font-size: calc(100/375*100vw);
+}
+
+html,
+body,
+.wrap,
+#root,
+.app {
+    height: 100%;
+    width: 100%;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+}
+
+.wrap section {
+    flex: 1;
+}
